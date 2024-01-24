@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+</head>
+<style>
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header h1 {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.details {
+	font-size: 20px;
+	margin: auto;
+	width: 40%;
+	height: 58%;
+	border: 1px solid black;
+	padding: 10px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.inputform {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+input {
+	height: 35px;
+}
+
+.btn {
+	margin-right: 20px;
+	text-align: right;
+}
+</style>
+
+<body>
+	<header>
+		<h1>Enter Employee Details</h1>
+
+	</header>
+	<form action="login.jsp" >
+		<div class="details">
+			<div class="inputform">
+				<p>Enter id :</p>
+				<input type="text" name="id">
+			</div>
+			<div class="inputform">
+				<p>Enter Name :</p>
+				<input type="text" name="nm">
+			</div>
+			<div class="inputform">
+				<p>Enter Role :</p>
+				<input type="text" name="rl">
+			</div>
+
+			<div class="btn">
+				<input type="Submit" value="Send">
+			</div>
+
+
+		</div>
+	</form>
+
+
+</body>
+
+</html>
