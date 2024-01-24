@@ -38,3 +38,34 @@ public class CrudOperations {
 			}
 	}
 }
+
+/*
+ * public class cars { public static void main(String[] args) { try {
+ * Class.forName("com.mysql.cj.jdbc.Driver"); Connection con = DriverManager
+ * .getConnection("jdbc:mysql://localhost:3306?user=root&password=Mayuresh@4518"
+ * );
+ * 
+ * //By using statement Statement stmt = con.createStatement();
+ * 
+ * //
+ * stmt.executeUpdate("Insert into carwale.carinfo values(1,'BMW','xyz',10000)"
+ * ); //
+ * stmt.executeUpdate("Insert into carwale.carinfo values(2,'ABC','xyz',20000)"
+ * ); //
+ * stmt.executeUpdate("Insert into carwale.carinfo values(3,'PQR','xyz',30000)"
+ * ); // stmt.
+ * executeUpdate("Update carwale.carinfo set car_name='Audi' , car_model='1969' WHERE cari_id=3"
+ * );
+ * 
+ * // stmt.
+ * executeUpdate("Insert into carwale.carinfo values(4,'nexon','2001',5000)");
+ * // stmt.
+ * executeUpdate("Insert into studentinformation.student values(5,'mas','pqr')"
+ * );
+ * 
+ * // stmt.executeUpdate("Delete from carwale.carinfo where cari_id=1"); //
+ * stmt.executeUpdate("Delete from studentinformation.student where sid=3");
+ * 
+ * } catch (Exception e) { // e.printStackTrace(); System.out.println(e); } } }
+ * 
+ */
