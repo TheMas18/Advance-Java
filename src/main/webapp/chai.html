@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login Form</title>
+</head>
+<style>
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header h1  {
+	border: 1px solid black;
+	text-align: center;
+	padding: 10px;
+}
+
+.details {
+	font-size: 20px;
+	margin: auto;
+	width: 40%;
+	height: 58%;
+	border: 1px solid black;
+	padding: 10px;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.inputform {
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	justify-content: space-between;
+}
+
+input {
+	height: 35px;
+}
+
+.btn {
+	margin-right: 20px;
+	text-align: right;
+}
+</style>
+
+<body>
+	<header>
+		<h1>
+			Chai wala 
+		</h1>
+
+	</header>
+	<form action="ChaiServlet" method="post">
+		<div class="details">
+			<div class="inputform">
+				<p>Enter ChaiBrand :</p>
+				<input type="text" name="cb">
+			</div>
+			<div class="inputform">
+				<p>Enter ChaiPrice :</p>
+				<input type="text" name="cp">
+			</div>
+			<div class="inputform">
+				<p>Enter Chai Quantity :</p>
+				<input type="text" name="cq">
+			</div>
+			<div class="btn">
+				<input type="Submit" value="Submit" >
+			</div>
+
+
+		</div>
+	</form>
+
+
+</body>
+
+</html>
